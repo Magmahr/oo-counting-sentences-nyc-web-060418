@@ -24,7 +24,8 @@ class String
       else word.end_with?("!")
         count += 1
       end
-    end  
+    end 
+    count
   end
-  count
+  
 end
