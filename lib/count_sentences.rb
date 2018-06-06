@@ -19,6 +19,11 @@ class String
     self.split.each do |word| 
       if word.end_with?(".")
         count += 1 
-    
+      elsif word.end_with?("?")
+        count += 1 
+      else word.end_with?("!")
+        count += 1
+      end
+      count
   end
 end
