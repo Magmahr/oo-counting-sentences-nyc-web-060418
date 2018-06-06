@@ -24,7 +24,7 @@ class String
       else word.end_with?("!")
         count += 1
       end
-      binding.pry
+
     end 
     count
   end
