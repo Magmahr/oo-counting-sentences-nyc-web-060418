@@ -21,8 +21,10 @@ class String
         count += 1 
       elsif word.end_with?("?")
         count += 1 
-      else word.end_with?("!")
+      elsif word.end_with?("!")
         count += 1
+      else 
+        count += 0
       end
 
     end 
