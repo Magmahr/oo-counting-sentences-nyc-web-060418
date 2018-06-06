@@ -25,5 +25,6 @@ class String
         count += 1
       end
       count
+    end  
   end
 end
